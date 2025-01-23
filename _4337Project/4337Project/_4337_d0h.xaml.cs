@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace _4337Project
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Interaction logic for _4337_d0h.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class _4337_d0h : Window
     {
-        public MainWindow()
+        public _4337_d0h()
         {
             InitializeComponent();
         }

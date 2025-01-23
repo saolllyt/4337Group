@@ -1,0 +1,17 @@
+D:\mat_lib\4337Group\4337Project\4337Project\bin\Debug\4337Project.exe.config
+D:\mat_lib\4337Group\4337Project\4337Project\bin\Debug\4337Project.exe
+D:\mat_lib\4337Group\4337Project\4337Project\bin\Debug\4337Project.pdb
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\4337Project.csproj.AssemblyReference.cache
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\_4337_d0h.g.cs
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\MainWindow.g.cs
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\App.g.cs
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\4337Project_MarkupCompile.cache
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\4337Project_MarkupCompile.lref
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\MainWindow.baml
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\_4337_d0h.baml
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\4337Project.g.resources
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\_4337Project.Properties.Resources.resources
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\4337Project.csproj.GenerateResource.cache
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\4337Project.csproj.CoreCompileInputs.cache
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\4337Project.exe
+D:\mat_lib\4337Group\4337Project\4337Project\obj\Debug\4337Project.pdb
