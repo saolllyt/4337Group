@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace _4337Project
 {
     /// <summary>
-    /// Логика взаимодействия для _4337_Sharifullin.xaml
+    /// Interaction logic for _4337_d0h.xaml
     /// </summary>
-    public partial class _4337_Sharifullin : Window
+    public partial class _4337_d0h : Window
     {
-        public _4337_Sharifullin()
+        public _4337_d0h()
         {
             InitializeComponent();
         }
