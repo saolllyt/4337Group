@@ -26,6 +26,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Button Content="Button" HorizontalAlignment="Left" Margin="416,0,0,0" Grid.Row="5" Click="Button_Click" Height="20" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="416,0,0,7" Grid.Row="15" Click="Button_Click1" Height="20" VerticalAlignment="Bottom"/>
 
     </Grid>
 </Window>

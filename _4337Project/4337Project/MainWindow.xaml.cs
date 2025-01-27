@@ -32,5 +32,12 @@ namespace _4337Project
             // Show the window
             secondWindow.Show();
         }
+        private void Button_Click1(object sender, RoutedEventArgs e)
+        {
+            _4337_SharifullnAnvar secondWindow = new _4337_SharifullnAnvar();
+
+            // Show the window
+            secondWindow.Show();
+        }
     }
 }
