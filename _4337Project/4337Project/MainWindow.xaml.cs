@@ -27,7 +27,7 @@ namespace _4337Project
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            _4337_Sergeev secondWindow = new _4337_Sergeev();
+            _4337_d0h secondWindow = new _4337_d0h();
 
             // Show the window
             secondWindow.Show();
