@@ -39,5 +39,12 @@ namespace _4337Project
             // Show the window
             secondWindow.Show();
         }
+        private void Button_Click3(object sender, RoutedEventArgs e)
+        {
+            _4337_Sergeev secondWindow = new _4337_Sergeev();
+
+            // Show the window
+            secondWindow.Show();
+        }
     }
 }
