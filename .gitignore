@@ -1,0 +1,56 @@
+# Visual Studio файлы
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.csproj.user
+*.csproj.filters
+
+# Bin и Obj (сборки)
+bin/
+obj/
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+.nuget/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/ 
+*.DotSettings.user
+
+# Автосгенерированные файлы
+GeneratedFiles/
+GeneratedCode/
+
+# Папки конфигурации
+app.publish/
+TestResults/
+logs/
+
+# WPF специфические файлы
+*.g.i.cs
+*.g.cs
+*.xaml.cs
+
+# Папка миграции Entity Framework
+Migrations/
+
+# Локальные настройки IDE
+*.vsconfig
