@@ -47,7 +47,6 @@ logs/
 # WPF специфические файлы
 *.g.i.cs
 *.g.cs
-*.xaml.cs
 
 # Папка миграции Entity Framework
 Migrations/
