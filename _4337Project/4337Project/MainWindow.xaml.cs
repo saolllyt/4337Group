@@ -46,5 +46,13 @@ namespace _4337Project
             // Show the window
             secondWindow.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            _4337_hao secondWindow = new _4337_hao();
+
+            // Show the window
+            secondWindow.Show();
+        }
     }
 }
