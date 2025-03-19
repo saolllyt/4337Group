@@ -12,6 +12,10 @@
                 <Button Name="Import" Content="Импорт данных" Width="100" Margin="10" Click="Import_Click"/>
                 <Button Name="Export" Content="Экспорт в Excel" Width="100" Margin="10" Click="Export_Click"/>
             </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Name="ImportJSON" Content="Импорт JSON" Width="100" Margin="10" Click="ImportJSON_Click"/>
+                <Button Name="ExportWORD" Content="Экспорт в Word" Width="100" Margin="10" Click="ExportWORD_Click"/>
+            </StackPanel>
             <Label Content="Vantsan Milena" HorizontalAlignment="Center"/>
             <Label Content="18 years" HorizontalAlignment="Center"/>
         </StackPanel>

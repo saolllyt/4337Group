@@ -96,3 +96,9 @@ C:\Users\mvant\Desktop\4337Group\_4337Project\4337Project\bin\Debug\System.Memor
 C:\Users\mvant\Desktop\4337Group\_4337Project\4337Project\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\mvant\Desktop\4337Group\_4337Project\4337Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\mvant\Desktop\4337Group\_4337Project\4337Project\obj\Debug\4337Proj.F9873C04.Up2Date
+C:\Users\mvant\Desktop\4337Group\_4337Project\4337Project\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\mvant\Desktop\4337Group\_4337Project\4337Project\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\mvant\Desktop\4337Group\_4337Project\4337Project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mvant\Desktop\4337Group\_4337Project\4337Project\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\mvant\Desktop\4337Group\_4337Project\4337Project\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\mvant\Desktop\4337Group\_4337Project\4337Project\bin\Debug\Newtonsoft.Json.xml

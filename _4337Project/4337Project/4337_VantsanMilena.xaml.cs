@@ -55,7 +55,7 @@ namespace _4337Project
 
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "Excel Files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
-            saveFileDialog.FileName = "ExportBD_hao4var.xlsx";
+            saveFileDialog.FileName = "ExportBD.xlsx";
 
             if (saveFileDialog.ShowDialog() == true)
             {
@@ -72,6 +72,65 @@ namespace _4337Project
                 }
             }
 
+        }
+
+        private void ImportJSON_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "JSON files (*.json)|*.json|All files (*.*)|*.*";
+            openFileDialog.FilterIndex = 1;
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+                string filePath = openFileDialog.FileName;
+
+                json_saolllyt orderService = new json_saolllyt();
+                orderService.CreateOrdersTable();
+
+                List<Order> orders = orderService.LoadOrdersFromJson(filePath);
+
+                if (orders != null && orders.Count > 0)
+                {
+                    orderService.SaveOrdersToDatabase(orders);
+                    MessageBox.Show("Данные успешно импортированы");
+                }
+                else
+                {
+                    MessageBox.Show("Не удалось загрузить данные");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Файл не выбран");
+            }
+        }
+
+        private void ExportWORD_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Word files (*.docx)|*.docx|All files (*.*)|*.*";
+            saveFileDialog.FilterIndex = 1;
+            saveFileDialog.FileName = "ExportBD.docx";
+
+            if (saveFileDialog.ShowDialog() == true)
+            {
+                string filePath = saveFileDialog.FileName;
+
+                json_saolllyt orderService = new json_saolllyt();
+                List<Order> orders = orderService.LoadOrdersFromDatabase();
+
+                if (orders != null && orders.Count > 0)
+                {
+                    Dictionary<string, List<Order>> groupedOrders = orderService.GroupOrdersByStatus(orders);
+                    orderService.ExportToWord(groupedOrders, filePath);
+
+                    MessageBox.Show("Данные успешно экспортированы в Word");
+                }
+                else
+                {
+                    MessageBox.Show("Нет данных для экспорта");
+                }
+            }
         }
     }
 }
