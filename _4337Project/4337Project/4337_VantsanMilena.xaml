@@ -7,7 +7,13 @@
         mc:Ignorable="d"
         Title="_4337_VantsanMilena" Height="450" Width="800">
     <Grid>
-        <Label Content="Vantsan Milena" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Content="18 years" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.593,2.504" Margin="0,230,0,0"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <Button Name="Import" Content="Импорт данных" Width="100" Margin="10" Click="Import_Click"/>
+                <Button Name="Export" Content="Экспорт в Excel" Width="100" Margin="10" Click="Export_Click"/>
+            </StackPanel>
+            <Label Content="Vantsan Milena" HorizontalAlignment="Center"/>
+            <Label Content="18 years" HorizontalAlignment="Center"/>
+        </StackPanel>
     </Grid>
 </Window>
